@@ -4,10 +4,10 @@
 
 **Regras da aplicação:**
 - Não permite a adição de usuários com o nome repetido
-- Campo "nome" deve se string.
+- Campo "nome" deve ser uma string.
 - Campos "nome" e "job" não podem ser nulos.
-- Valida que o usuário existe antes de excluií-lo, atualizá-lo e/ou buscá-lo.
-- So permite atualização do campo "job".
+- Valida que o usuário existe no banco antes de excluií-lo, atualizá-lo e/ou buscá-lo.
+- Só permite atualização do campo "job".
 
 ## Tarefa:
 Desenvolver os testes unitários para os métodos:
